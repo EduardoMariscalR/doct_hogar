@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "955233727354",
+    "project_id": "docthogar-a0425",
+    "storage_bucket": "docthogar-a0425.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:955233727354:android:6eacc4fd351ef559389cc3",
+        "android_client_info": {
+          "package_name": "com.example.doct_hogar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "955233727354-jv0hl0ojsgfuikadqueujksb82vn1km0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_EaS_Bb3DcAkDgU917G5jT6ir0BxjlZ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "955233727354-jv0hl0ojsgfuikadqueujksb82vn1km0.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "955233727354-nt35qioc2rksipq8n75lb0phh4kah4i4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.doctHogar"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

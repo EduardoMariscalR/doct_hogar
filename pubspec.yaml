@@ -1,0 +1,45 @@
+name: doct_hogar
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  flutter_bloc: ^8.1.2
+  bloc: ^8.1.4
+  meta: ^1.9.1
+  wave: ^0.2.2
+  firebase_core: ^2.30.0
+  firebase_auth: ^4.19.3
+  google_fonts: ^6.2.1
+  sign_button: ^2.0.6
+  google_sign_in: ^6.2.1
+  status_alert: ^1.0.1
+  flutter_facebook_auth: ^6.2.0
+  phone_form_field: ^9.2.3
+  quickalert: ^1.1.0
+  pinput: ^4.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.13.1
+
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/docthogar_logo.png"
+  remove_alpha_ios: true
+
+flutter:
+  uses-material-design: true
+  assets: 
+  - assets/
+
