@@ -1,3 +1,4 @@
+import 'package:doct_hogar/app/views/home_screen.dart';
 import 'package:doct_hogar/app/views/login1_screen.dart';
 import 'package:doct_hogar/app/views/login_page.dart';
 import 'package:doct_hogar/app/views/login_screen.dart';
@@ -28,7 +29,8 @@ class MyApp extends StatelessWidget {
       routes: {
         '/':(context) => const LogInScreen(),
         '/login1':(context) => const LolgIn1Screen(),
-        '/loginpage':(context) => const LoginPage()
+        '/loginpage':(context) => const LoginPage(),
+        '/home':(context) => const HomeScreen()
       },
     );
   }

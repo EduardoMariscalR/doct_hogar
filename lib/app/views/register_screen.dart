@@ -18,11 +18,6 @@ class _RegisterScreenState extends State<RegisterScreen> {
   final GlobalKey<FormState> _form = GlobalKey<FormState>();
   final TextEditingController _password = TextEditingController();
   final TextEditingController _confirmPassword = TextEditingController();
-  final TextEditingController _name = TextEditingController();
-  final TextEditingController _firstLastName = TextEditingController();
-  final TextEditingController _secondLastName = TextEditingController();
-  final TextEditingController _phone = TextEditingController();
-  final TextEditingController _confirmPass = TextEditingController();
 
   bool? isChecked = false;
 
@@ -81,7 +76,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
               AppBar(
                 backgroundColor: Colors.transparent,
                 foregroundColor: Colors.white,
-                title: const Text('Confirmacion cuenta'),
+                title: const Text('ingresa con'),
               ),
             ],
           ),

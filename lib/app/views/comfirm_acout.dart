@@ -56,7 +56,7 @@ class _ComfirmAcount extends State<ComfirmAcount> {
                 AppBar(
                   backgroundColor: Colors.transparent,
                   foregroundColor: Colors.white,
-                  title: const Text('ingresa con'),
+                  title: const Text('Confirmacion cuenta'),
                 ),
               ],
             )),

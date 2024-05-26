@@ -1,10 +1,8 @@
-import 'package:doct_hogar/app/views/login1_screen.dart';
 import 'package:doct_hogar/app/components/onboarding_facebook.dart';
 import 'package:doct_hogar/app/components/onboarding_google.dart';
 import 'package:doct_hogar/app/views/password_recovery.dart';
 import 'package:doct_hogar/app/views/register_screen.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:wave/config.dart';
 import 'package:wave/wave.dart';
 
@@ -167,8 +165,7 @@ class _LoginPageState extends State<LoginPage> {
             flex: 6,
             child: FilledButton(
               onPressed: () {
-                Navigator.of(context).push(MaterialPageRoute(
-                    builder: (context) => const LolgIn1Screen()));
+                Navigator.pushNamed(context, "/home");
               },
               child: Text(text),
             ),

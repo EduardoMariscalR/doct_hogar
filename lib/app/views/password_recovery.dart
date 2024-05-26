@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:pinput/pinput.dart';
 import 'package:quickalert/models/quickalert_type.dart';
 import 'package:quickalert/widgets/quickalert_dialog.dart';
 import 'package:wave/config.dart';
@@ -21,14 +20,14 @@ class _PasswordRecovery extends State<PasswordRecovery> {
 
   @override
   Widget build(BuildContext context) {
-    final defaultPinTheme = PinTheme(
-      width: 50,
-      height: 50,
-      decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(15),
-        border: Border.all(color: Colors.black.withOpacity(0.5)),
-      ),
-    );
+    // final defaultPinTheme = PinTheme(
+    //   width: 50,
+    //   height: 50,
+    //   decoration: BoxDecoration(
+    //     borderRadius: BorderRadius.circular(15),
+    //     border: Border.all(color: Colors.black.withOpacity(0.5)),
+    //   ),
+    // );
 
     return Scaffold(
       appBar: PreferredSize(
